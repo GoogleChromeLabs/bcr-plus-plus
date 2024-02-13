@@ -69,7 +69,7 @@ On the far side, the BCR extension would define the content script for all websi
 }
 ```
 
-Or use the new MV3 [*chrome.scripting.registerContentScripts()`](https://developer.chrome.com/docs/extensions/reference/scripting/#method-registerContentScripts) API to just inject the script into BCR’able URLs (in which case we would not need `BcrSide.NONE`).
+Or use the new MV3 [`chrome.scripting.registerContentScripts()`](https://developer.chrome.com/docs/extensions/reference/scripting/#method-registerContentScripts) API to just inject the script into BCR’able URLs (in which case we would not need `BcrSide.NONE`).
 
 ```javascript
 // service_worker.js or background.js
