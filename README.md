@@ -81,7 +81,7 @@ await chrome.scripting.registerContentScripts({
 });
 ```
 ##### Near side
-On the near side, the VDI client app would use the overlay's `addContentScripts()`` method to achieve the same.
+On the near side, the VDI client app would use the overlay's `addContentScripts()` method to achieve the same.
 
 ```javascript
 // desktop.js
